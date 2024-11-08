@@ -5,7 +5,7 @@ import DesktopView from "./DesktopView";
 export default function Navbar() {
   const [toggle, setToggled] = useState(false);
   return (
-    <div className="w-svw bg-[#c1332a] fixed top-0 left-0 z-20">
+    <div className="w-svw bg-[#c1332a] fixed top-0 left-0 z-40">
       <div className=" container h-[77px] md:h-[108px] bg-[#c1332a] flex justify-between items-center md:space-x-7">
         <div>
           <img

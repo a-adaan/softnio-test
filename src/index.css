@@ -9,3 +9,16 @@
   background: #ffffff;
   box-shadow: -11px 11px 22px #ebebeb, 11px -11px 22px #ffffff;
 }
+
+::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background-color: #def2f1;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #17252a;
+  border-radius: 10px;
+  border: 4px solid #def2f1;
+  box-sizing: border-box;
+}

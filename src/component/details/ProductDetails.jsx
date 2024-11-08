@@ -127,7 +127,7 @@ export default function ProductDetails() {
   }, []);
 
   return (
-    <div className="bg-[#FBF7F2] hidden md:block">
+    <div className="bg-[#FBF7F2] hidden md:block relative">
       <div className="container h-[710px] flex flex-col items-center justify-center space-y-10">
         <div className="flex h-[110px] w-full items-center justify-between">
           <div className="flex flex-col items-center justify-start">
@@ -163,7 +163,10 @@ export default function ProductDetails() {
             }}
           >
             {loopedCards.map((card, index) => (
-              <div key={index} className="w-full md:w-1/4 p-4 flex-shrink-0">
+              <div
+                key={index}
+                className="w-full md:w-1/4 p-4 flex-shrink-0 z-10"
+              >
                 <div className="bg-white w-[306px] h-[300px] p-6 flex flex-col items-center justify-evenly">
                   <img src={card.src} alt="" />
                   <span className="w-12 h-1 my-2 bg-[#BD1F17]"></span>
@@ -179,6 +182,11 @@ export default function ProductDetails() {
           </div>
         </div>
       </div>
+      <img
+        src="/src/assets/absolute01.png"
+        alt="decoration"
+        className="-rotate-6 hidden md:block absolute bottom-20 -left-10 scale-75 "
+      />
     </div>
   );
 }

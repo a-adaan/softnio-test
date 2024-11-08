@@ -87,7 +87,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="flex flex-col items-center justify-center">
-          <div className="flex justify-center items-center space-x-6 mb-6">
+          <div className="flex justify-center items-center space-x-6 mb-5">
             <span>
               <img
                 src="/src/assets/footer/fb.png"

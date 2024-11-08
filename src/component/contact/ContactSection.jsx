@@ -11,7 +11,7 @@ export default function ContactSection() {
       }}
     >
       <div className="container flex flex-col items-start justify-center h-full">
-        <div className="flex flex-col items-center justify-start">
+        <div className="flex flex-col items-start justify-center space-y-3">
           <span className="font-roboto text-[#BD1F17] font-bold text-xl w-full text-start before:content-['▪'] before:text-2xl before:mr-4">
             Crispy, Every Bite Taste
           </span>
@@ -20,6 +20,7 @@ export default function ContactSection() {
           </p>
           <p className="font-roboto font-normal text-base text-white">
             Enim tempor eget pharetra facilisis sed maecenas adipiscing. Eu leo
+            <br />
             molestie vel, ornare non id blandit netus.
           </p>
         </div>

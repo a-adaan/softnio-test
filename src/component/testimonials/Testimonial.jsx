@@ -66,14 +66,14 @@ export default function Testimonial() {
   }
 
   return (
-    <div className="bg-[#FBF7F2] ">
-      <div className="container h-[965px] flex flex-col items-center justify-center space-y-10">
+    <div className="bg-[#FBF7F2] relative overflow-hidden">
+      <div className="container h-[965px] flex flex-col items-center justify-center space-y-10 ">
         <div className="flex h-[110px] w-full items-center justify-between">
-          <div className="flex flex-col items-center justify-start">
-            <span className="font-roboto text-[#BD1F17] font-bold text-xl w-full text-start before:content-['▪'] before:mr-3 before:text-2xl">
+          <div className="flex flex-col items-center justify-start space-y-3 z-20">
+            <span className="font-roboto text-[#BD1F17] font-bold text-sm md:text-xl w-full text-start before:content-['▪'] before:mr-3 before:text-2xl">
               Crispy, Every Bite Taste
             </span>
-            <h2 className="font-bebas text-6xl font-normal capitalize">
+            <h2 className="font-bebas text-4xl md:text-6xl font-normal capitalize">
               What Some of my Customers Say
             </h2>
           </div>
@@ -102,17 +102,17 @@ export default function Testimonial() {
           >
             {loopedCards.map((card, index) => (
               <div key={index} className="w-full">
-                <div className="bg-white w-[330px] h-[600px] md:w-[1320px] md:h-[555px] grid grid-cols-1 md:grid-cols-[556px_764px]">
-                  <div className="bg-[#FEBF00] h-full flex flex-col items-start justify-between py-20 px-14 relative">
+                <div className="bg-white w-[330px] h-[600px] md:w-[1320px] md:h-[555px] grid grid-cols-[330px] md:grid-cols-[556px_764px]">
+                  <div className="bg-[#FEBF00] h-[360px] md:h-full flex flex-col items-start justify-between py-5 px-5 md:py-20 md:px-14 relative order-2 md:order-1">
                     {/* Quote Text */}
-                    <p className="text-xl text-black font-normal mb-8">
+                    <p className="text-lg md:text-xl text-black font-normal mb-2 md:mb-8 ">
                       <span className="text-5xl font-mono font-bold text-black">
                         “
                       </span>{" "}
                       {card.quote}
                     </p>
 
-                    <div className="w-full mt-8">
+                    <div className="w-full mt-1 md:mt-8">
                       <div className="flex items-center justify-between mb-4">
                         <div>
                           <p className="font-bold text-black capitalize">
@@ -135,11 +135,11 @@ export default function Testimonial() {
                     {/* Decorative Line */}
 
                     {/* Decorative Icon */}
-                    <div className="absolute bottom-8 left-8">
+                    <div className="absolute -bottom-4 left-0 md:-left-1 md:bottom-0">
                       <img
-                        src="/path/to/decorative-icon.png"
+                        src="/src/assets/testi-Img.svg"
                         alt="Decoration"
-                        className="w-6 h-6"
+                        className="w-5 md:w-10 h-16"
                       />
                     </div>
                   </div>
@@ -149,7 +149,7 @@ export default function Testimonial() {
                       backgroundSize: "cover",
                       backgroundPosition: "center",
                     }}
-                    className="bg-blue-300 h-full flex items-center justify-center"
+                    className="bg-blue-300 h-[240px] md:h-full flex items-center justify-center order-1 md:order-2"
                   >
                     <img src="/src/assets/Play.png" alt="play button" />
                   </div>
@@ -175,6 +175,11 @@ export default function Testimonial() {
           </button>
         </div>
       </div>
+      <img
+        src="/src/assets/absolute02.png"
+        alt="decoration"
+        className="-rotate-6 hidden md:block absolute top-20 -left-20 scale-50 "
+      />
     </div>
   );
 }

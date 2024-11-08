@@ -1,6 +1,6 @@
 export default function Dropdown() {
   return (
-    <div className="w-full h-full fixed top-[77px] left-0 bg-yellow-300 flex flex-col justify-evenly items-center">
+    <div className="w-full h-full fixed top-[77px] left-0 bg-[#FEBF00] flex flex-col justify-evenly items-center">
       <ul className="flex flex-col space-y-5 items-center text-lg">
         <li className="hover:underline underline-offset-4 transition duration-300">
           Home

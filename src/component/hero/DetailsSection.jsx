@@ -1,6 +1,8 @@
+import Tabs from "./Tabs";
+
 export default function DetailsSection() {
   return (
-    <div className="bg-white">
+    <div className="bg-white relative overflow-hidden">
       {/* About Section with Tabs */}
       <div className=" container mt-12 px-8 grid grid-cols-1 md:grid-cols-2 gap-10">
         <div className="flex justify-center lg:justify-end">
@@ -12,29 +14,7 @@ export default function DetailsSection() {
         </div>
         {/* Left Side - Tabs and Text */}
         <div>
-          <div className="flex justify-center lg:justify-start gap-8 text-center text-gray-700">
-            <button className="font-semibold border-b-2 border-red-600 pb-2">
-              About
-            </button>
-            <button className="font-semibold">Experience</button>
-            <button className="font-semibold">Contact</button>
-          </div>
-          <div className="mt-6">
-            <h2 className="text-5xl font-bebas font-normal text-gray-800">
-              EXCEPTIONAL CULINARY <br /> EXPERIENCE AND DELICIOUS FOOD
-            </h2>
-            <p className="mt-4 text-gray-600 font-roboto">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare
-              non sed est cursus. Vel hac convallis ipsum, facilisi odio
-              pellentesque bibendum viverra tempus. Lorem ipsum dolor sit amet
-              consectetur adipiscing elit do eiusmod tempor incididunt ut labore
-              et dolore magna minim veniam nostrud exercitation.
-            </p>
-            <button className="mt-6 bg-yellow-400 text-black px-6 py-2 font-semibold ">
-              ABOUT MORE
-            </button>
-            <p className="mt-4 text-gray-600 font-semibold">+88 3426 739 485</p>
-          </div>
+          <Tabs />
         </div>
       </div>
 
@@ -84,6 +64,11 @@ export default function DetailsSection() {
           </div>
         </div>
       </div>
+      <img
+        src="/src/assets/hero02.png"
+        alt="decoration"
+        className="rotate-12 hidden md:block absolute bottom-10 -right-36"
+      />
     </div>
   );
 }

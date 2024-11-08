@@ -25,7 +25,7 @@ export default function ContactForm() {
     <div className="relative flex justify-center items-center mt-10 bg-transparent">
       <form
         onSubmit={handleSubmit}
-        className=" w-[636px] space-y-4  bg-transparent"
+        className="w-[330px] md:w-[636px] space-y-4  bg-transparent"
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <input
