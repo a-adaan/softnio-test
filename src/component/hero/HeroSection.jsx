@@ -22,12 +22,12 @@ export default function HeroSection() {
         {/* Right Side Image  */}
         <div className="relative flex justify-center items-center lg:justify-end">
           <img
-            src="/src/assets/hero01.png"
+            src="/assets/hero01.png"
             alt="Delicious Food"
             className=" w-full md::w-full"
           />
           <img
-            src="/src/assets/Vector.png"
+            src="/assets/Vector.png"
             alt="vector"
             className=" w-10 absolute right-0 -top-5 md:top-0 md:right-8"
           />

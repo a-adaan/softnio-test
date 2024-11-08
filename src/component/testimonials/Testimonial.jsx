@@ -8,40 +8,40 @@ export default function Testimonial() {
         "You can't go wrong with Chicken Mandi, I had it twice. The chicken was cooked perfectly, juicy & soft (usually mandi chicken is a bit dry). I would definitely recommend it.",
       author: "Khalid Al Dawsry",
       location: "Jeddah, Saudi",
-      authorPic: "/src/assets/testi/author.png",
-      src: "/src/assets/testi/pic05.png",
+      authorPic: "/testi/author.png",
+      src: "/testi/pic05.png",
     },
     {
       quote:
         "A truly authentic experience! The spices were perfectly balanced, and the lamb was melt-in-the-mouth tender. This is my go-to spot for Saudi cuisine.",
       author: "Fatima Al Otaibi",
       location: "Riyadh, Saudi",
-      authorPic: "/src/assets/testi/author.png",
-      src: "/src/assets/testi/pic02.jpg",
+      authorPic: "/testi/author.png",
+      src: "/testi/pic02.jpg",
     },
     {
       quote:
         "The ambience and food are both amazing. I had the Kabsa, and it was absolutely delicious. Highly recommended for anyone who loves rich flavors.",
       author: "Omar Ahmed",
       location: "Dammam, Saudi",
-      authorPic: "/src/assets/testi/author.png",
-      src: "/src/assets/testi/pic03.jpg",
+      authorPic: "/testi/author.png",
+      src: "/testi/pic03.jpg",
     },
     {
       quote:
         "I was blown away by the flavors! The Shawarma was tender and bursting with flavor, and the service was excellent. Will be coming back for sure.",
       author: "Laila Mansour",
       location: "Mecca, Saudi",
-      authorPic: "/src/assets/testi/author.png",
-      src: "/src/assets/testi/pic04.jpg",
+      authorPic: "/testi/author.png",
+      src: "/testi/pic04.jpg",
     },
     {
       quote:
         "Best Saudi food in the city! The Majboos was superb, and the fresh ingredients really made a difference. A must-try for all food lovers.",
       author: "Salem Al Nasser",
       location: "Medina, Saudi",
-      authorPic: "/src/assets/testi/author.png",
-      src: "/src/assets/testi/pic01.jpg",
+      authorPic: "/testi/author.png",
+      src: "/testi/pic01.jpg",
     },
   ];
 
@@ -137,7 +137,7 @@ export default function Testimonial() {
                     {/* Decorative Icon */}
                     <div className="absolute -bottom-4 left-0 md:-left-1 md:bottom-0">
                       <img
-                        src="/src/assets/testi-Img.svg"
+                        src="/assets/testi-Img.svg"
                         alt="Decoration"
                         className="w-5 md:w-10 h-16"
                       />
@@ -151,7 +151,7 @@ export default function Testimonial() {
                     }}
                     className="bg-blue-300 h-[240px] md:h-full flex items-center justify-center order-1 md:order-2"
                   >
-                    <img src="/src/assets/Play.png" alt="play button" />
+                    <img src="/Play.png" alt="play button" />
                   </div>
                 </div>
               </div>
@@ -176,7 +176,7 @@ export default function Testimonial() {
         </div>
       </div>
       <img
-        src="/src/assets/absolute02.png"
+        src="/assets/absolute02.png"
         alt="decoration"
         className="-rotate-6 hidden md:block absolute top-20 -left-20 scale-50 "
       />

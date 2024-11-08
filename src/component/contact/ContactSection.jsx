@@ -5,7 +5,7 @@ export default function ContactSection() {
     <div
       className="h-[788px] bg-auto"
       style={{
-        backgroundImage: "url('/src/assets/formbg.png')",
+        backgroundImage: "url('/assets/formbg.png')",
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}

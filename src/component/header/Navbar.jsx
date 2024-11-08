@@ -2,7 +2,7 @@ import { useState } from "react";
 import { FaBars } from "react-icons/fa";
 import Dropdown from "./Dropdown";
 import DesktopView from "./DesktopView";
-import logo from "/src/assets/Logo(test).png";
+import logo from "/assets/Logo(test).png";
 export default function Navbar() {
   const [toggle, setToggled] = useState(false);
   return (

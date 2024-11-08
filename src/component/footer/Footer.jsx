@@ -1,9 +1,19 @@
+import bg from "/assets/Footer.png";
+import clock from "/assets/footer/clock.png";
+import call from "/assets/footer/call.png";
+import mail from "/assets/footer/mail.png";
+import map from "/assets/footer/map.png";
+import fb from "/assets/footer/fb.png";
+import x from "/assets/footer/x.png";
+import insta from "/assets/footer/insta.png";
+import linkd from "/assets/footer/link.png";
+
 export default function Footer() {
   return (
     <div
       className="h-[999px] md:h-[788px] bg-auto"
       style={{
-        backgroundImage: "url('/src/assets/Footer.png')",
+        backgroundImage: `url(${bg})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -14,11 +24,7 @@ export default function Footer() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-4 gap-6 my-5">
           <div className="w-[312px] h-[136px] md:h-[144px] flex flex-col items-center justify-evenly">
-            <img
-              src="/src/assets/footer/clock.png"
-              alt="clock"
-              className="h-[30px] w-[30px]"
-            />
+            <img src={clock} alt="clock" className="h-[30px] w-[30px]" />
             <span className="w-full text-center">
               <p className="font-bebas font-normal text-2xl mb-3">
                 Opening hours
@@ -32,11 +38,7 @@ export default function Footer() {
             </span>
           </div>
           <div className="w-[312px] h-[136px] md:h-[144px] flex flex-col items-center justify-between ">
-            <img
-              src="/src/assets/footer/call.png"
-              alt="call"
-              className="h-[30px] w-[30px]"
-            />
+            <img src={call} alt="call" className="h-[30px] w-[30px]" />
             <span className="w-full text-center">
               <p className="font-bebas font-normal text-2xl mb-3">
                 LET&apos;S TALK
@@ -50,11 +52,7 @@ export default function Footer() {
             </span>
           </div>
           <div className="w-[312px] h-[136px] md:h-[144px] flex flex-col items-center justify-between">
-            <img
-              src="/src/assets/footer/mail.png"
-              alt="mail"
-              className="h-[30px] w-[30px]"
-            />
+            <img src={mail} alt="mail" className="h-[30px] w-[30px]" />
             <span className="w-full text-center">
               <p className="font-bebas font-normal text-2xl mb-3">
                 BOOK A TABLE
@@ -68,11 +66,7 @@ export default function Footer() {
             </span>
           </div>
           <div className="w-[312px] h-[136px] md:h-[144px] flex flex-col items-center justify-between">
-            <img
-              src="/src/assets/footer/map.png"
-              alt="map"
-              className="h-[30px] w-[30px]"
-            />
+            <img src={map} alt="map" className="h-[30px] w-[30px]" />
             <span className="w-full text-center">
               <p className="font-bebas font-normal text-2xl mb-3">
                 Our Address
@@ -89,32 +83,16 @@ export default function Footer() {
         <div className="flex flex-col items-center justify-center">
           <div className="flex justify-center items-center space-x-6 mb-5">
             <span>
-              <img
-                src="/src/assets/footer/fb.png"
-                alt="facebook"
-                className="h-[53px] w-[53px]"
-              />
+              <img src={fb} alt="facebook" className="h-[53px] w-[53px]" />
             </span>
             <span>
-              <img
-                src="/src/assets/footer/x.png"
-                alt="twitter"
-                className="h-[53px] w-[53px]"
-              />
+              <img src={x} alt="twitter" className="h-[53px] w-[53px]" />
             </span>
             <span>
-              <img
-                src="/src/assets/footer/insta.png"
-                alt="instagram"
-                className="h-[53px] w-[53px]"
-              />
+              <img src={insta} alt="instagram" className="h-[53px] w-[53px]" />
             </span>
             <span>
-              <img
-                src="/src/assets/footer/link.png"
-                alt="linkdin"
-                className="h-[53px] w-[53px]"
-              />
+              <img src={linkd} alt="linkdin" className="h-[53px] w-[53px]" />
             </span>
           </div>
           <p className="font-roboto font-normal text-base">
