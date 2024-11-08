@@ -151,7 +151,7 @@ export default function Testimonial() {
                     }}
                     className="bg-blue-300 h-[240px] md:h-full flex items-center justify-center order-1 md:order-2"
                   >
-                    <img src="/Play.png" alt="play button" />
+                    <img src="/assets/Play.png" alt="play button" />
                   </div>
                 </div>
               </div>
