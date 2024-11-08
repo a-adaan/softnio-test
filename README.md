@@ -32,15 +32,21 @@ The following technologies, frameworks, and libraries were used in this project:
 To run this project locally, follow these steps:
 
 1. Clone this repository:
+   ```bash
    git clone https://github.com/a-adaan/softnio-test.git
-
+   ```
 2. Navigate to the project directory:
+
+   ```bash
    cd your-repository-name
+   ```
 
 3. Install dependencies:
+   ```bash
    npm install
-
+   ```
 4. Start the development server:
-   npm start
-
-Open your browser and go to http://localhost:5173 to see the website.
+   ```bash
+   npm run dev
+   ```
+   Open your browser and go to http://localhost:5173 to see the website.
